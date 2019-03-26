@@ -1,71 +1,31 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+# Curso Laravel 5.8 ([Tempo Real Eventos](https://www.temporealeventos.com.br/))
 
-## About Laravel
+**Laravel é um framework de desenvolvimento rápido para PHP, livre e de código aberto. Cuja o principal objetivo é permitir que você trabalhe de forma estruturada e rápida.**
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Com uma rápida pesquisa no [Google Trends](https://trends.google.com.br/trends/explore?q=laravel,CodeIgniter,symfony,cakephp,Zend), podemos comprovar a crescente popularidade do Laravel.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Abaixo segue alguns links e tópicos apresentado, todo conteúdo e temos na documentação do Laravel, porém foi pesquisado em outras fontes como referencia, tanto a documentação como links de referencia te ajudará a obter êxito no curso, alguns links estão em versões anterior da 5.8 porém não irá influenciar no conteúdo.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 1. Primeira aula
+Na primeira aula iremos falar sobre Laravel, conhecer algumas funcionalidades, diretórios e configuração;
+- [O que é um Framework?](https://gaea.com.br/entenda-o-que-e-framework/)
+- [Estrutura do Framework PHP](https://blog.especializati.com.br/estrutura-do-framework-php-laravel)
+- [O que é MVC](https://tableless.com.br/mvc-afinal-e-o-que/)
+- [Rotas](https://blog.especializati.com.br/rotas-no-laravel/)
+- [Eloquent (Migrations)](https://imasters.com.br/desenvolvimento/criando-migrations-e-relacionando-tabelas-com-laravel)
+- [Model](https://medium.com/trainingcenter/relacionando-models-e-tabelas-no-laravel-5-4-a8365a12eca2)
+- [Controller](https://blog.dialhost.com.br/laravel-controller/)
+- [View (layout)](https://www.devmedia.com.br/blade-engine-utilizando-templates-no-laravel/36749)
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost you and your team's skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Links
+* [Composer (Instalação)](https://getcomposer.org/doc/00-intro.md)
+* [Composer - Primeiros Passos](https://www.youtube.com/watch?v=gXQZlrbzesc)
+* [Introdução GIT](https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/)
+* [Git e Github para iniciantes](https://www.youtube.com/watch?v=UMhskLXJuq4)
+* [Documentação PHP](https://www.php.net)
+* [PHP Orientado a Objetos](https://www.youtube.com/watch?v=_mBqvoSJIBU)
+* [Documentação Laravel 5.8](https://laravel.com/docs/5.8)
+* [Cache (Acelere o carregamento)](https://tableless.com.br/acelere-o-carregamento-de-seu-site-com-php-caching/)
