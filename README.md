@@ -19,6 +19,46 @@ Na primeira aula iremos falar sobre Laravel, conhecer algumas funcionalidades, d
 - [Controller](https://blog.dialhost.com.br/laravel-controller/)
 - [View (layout)](https://www.devmedia.com.br/blade-engine-utilizando-templates-no-laravel/36749)
 
+## 2. Estrutura do projeto (Gestão de estoque)
+Configurando o requistório:
+
+```
+git clone https://github.com/edersonsandre/tre_gestao-estoque.git
+
+composer install
+```
+
+
+Vamos criar o arquivo ".env" no diretorio raiz com o seguinte conteudo:
+```
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=base64:nEdYziu8oxRmIOssq4mX973DytqQTMSmt5PFU1RaS5Y=
+APP_DEBUG=true
+APP_URL=http://localhost
+
+LOG_CHANNEL=stack
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+
+BROADCAST_DRIVER=log
+CACHE_DRIVER=file
+QUEUE_CONNECTION=sync
+SESSION_DRIVER=file
+SESSION_LIFETIME=120
+```
+
+Em seguida vamos limpar o cache das configurações e levantar o servidor
+```
+php artisan config:cache;
+php artisan serve;
+```
+
 
 ## Links
 * [Composer (Instalação)](https://getcomposer.org/doc/00-intro.md)
