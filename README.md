@@ -8,8 +8,8 @@ Com uma rápida pesquisa no [Google Trends](https://trends.google.com.br/trends/
 
 Abaixo segue alguns links e tópicos apresentado, todo conteúdo e temos na documentação do Laravel, porém foi pesquisado em outras fontes como referencia, tanto a documentação como links de referencia te ajudará a obter êxito no curso, alguns links estão em versões anterior da 5.8 porém não irá influenciar no conteúdo.
 
-## 1. Primeira aula
-Na primeira aula iremos falar sobre Laravel, conhecer algumas funcionalidades, diretórios e configuração;
+## 1. Conhecendo o Laravel
+Falando sobre Laravel, conhecendo algumas funcionalidades, diretórios e configurações:
 - [O que é um Framework?](https://gaea.com.br/entenda-o-que-e-framework/)
 - [Estrutura do Framework PHP](https://blog.especializati.com.br/estrutura-do-framework-php-laravel)
 - [O que é MVC](https://tableless.com.br/mvc-afinal-e-o-que/)
@@ -19,13 +19,15 @@ Na primeira aula iremos falar sobre Laravel, conhecer algumas funcionalidades, d
 - [Controller](https://blog.dialhost.com.br/laravel-controller/)
 - [View (layout)](https://www.devmedia.com.br/blade-engine-utilizando-templates-no-laravel/36749)
 
-## 2. Estrutura do projeto (Gestão de estoque)
+## 2. Estrutura do projeto (Gestão de estoque), Eloquent, Model e Validation
 Configurando o requistório:
 
 ```
-git clone https://github.com/edersonsandre/tre_gestao-estoque.git
+git clone https://github.com/edersonsandre/tre_gestao-estoque.git;
 
-composer install
+cd tre_gestao-estoque;
+
+composer install;
 ```
 
 
@@ -58,6 +60,9 @@ Em seguida vamos limpar o cache das configurações e levantar o servidor
 php artisan config:cache;
 php artisan serve;
 ```
+
+- [Eloquent](https://imasters.com.br/back-end/como-criar-as-models-do-seu-projeto-com-eloquent-no-laravel)
+- [Validação](https://blog.dialhost.com.br/laravel-5-7-criando-form-validations/)
 
 
 ## Links
