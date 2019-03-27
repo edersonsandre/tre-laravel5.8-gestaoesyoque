@@ -61,6 +61,7 @@ php artisan config:cache;
 php artisan serve;
 ```
 
+- [Locazation (Tradução)](https://laravel.com/docs/5.8/localization)
 - [Blade (Layout)](https://laravel.com/docs/5.8/blade#forms)
 - [Eloquent](https://imasters.com.br/back-end/como-criar-as-models-do-seu-projeto-com-eloquent-no-laravel)
 - [Validação](https://blog.dialhost.com.br/laravel-5-7-criando-form-validations/)
