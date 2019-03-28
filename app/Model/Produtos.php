@@ -34,4 +34,12 @@ class Produtos extends Model
         return true;
     }
 
+    public function getEstoque(){
+        return Estoque::getEstoqueByProduto($this->id);
+    }
+
+    public function estoque(){
+        return $this->hasOne(Estoque::class, 'produto', 'id');
+    }
+
 }

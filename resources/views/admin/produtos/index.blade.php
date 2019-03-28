@@ -13,6 +13,7 @@
                 <th>Nome</th>
                 <th>Preço</th>
                 <th>Ativo</th>
+                <th>Estoque</th>
                 <th>#</th>
             </tr>
             @foreach($rows AS $row)
@@ -21,6 +22,7 @@
                     <td>{!! $row->nome !!}</td>
                     <td>{!! $row->valor !!}</td>
                     <td>{!! $row->ativo !!}</td>
+                    <td>{!! $row->estoque->quantidade !!}</td>
                     <td>
                         <a href="{!! route('admin-produtos-edit', ['id'=>$row->id]) !!}" class="btn btn-success">E</a>
                         | <a href="{!! route('admin-produtos-delete', ['id'=>$row->id]) !!}" class="btn btn-danger">D</a>
