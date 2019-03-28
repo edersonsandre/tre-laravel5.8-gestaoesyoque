@@ -8,15 +8,14 @@
 
     <div class="card">
         <div class="card-body">
-            {!! Form::model($model, ['url' => route('admin-clientes-save')]) !!}
+            {!! Form::model($model, ['url' => route('admin-produtos-save')]) !!}
             {!! Form::hidden('id') !!}
 
             {!! Form::cText('nome', 'Nome'); !!}
-            {!! Form::cText('cpf', 'CPF'); !!}
-            {!! Form::cText('telefone', 'Telefone'); !!}
-            {!! Form::cText('email', 'E-mail'); !!}
+            {!! Form::cText('valor', 'Valor'); !!}
+            {!! Form::cText('ativo', 'Ativo'); !!}
 
-            <div >
+            <div>
                 <button type="submit" class="btn btn-success">Gravar</button>
             </div>
 
